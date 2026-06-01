@@ -1,11 +1,11 @@
 ---
 name: answer-quality-checks
-description: Review the output of a government digital assistant against the Raamwerk Digitale Assistenten "Answer Quality" domain. Use when the user asks the agent to evaluate, audit, or improve an assistant's responses, RAG output, or refusal behaviour. Produces a structured review with required fixes and source-coverage findings.
+description: Review the output of a government digital assistant against the Raamwerk van de Digitale Assistent "Answer Quality" domain. Use when the user asks the agent to evaluate, audit, or improve an assistant's responses, RAG output, or refusal behaviour. Produces a structured review with required fixes and source-coverage findings.
 ---
 
 # Answer Quality Checks
 
-A review Skill for digital assistants built by Dutch government organisations. It applies the Answer Quality domain of the *Raamwerk Digitale Assistenten* to a set of assistant responses and produces a concrete, actionable review.
+A review Skill for digital assistants built by Dutch government organisations. It applies the Answer Quality domain of the *Raamwerk van de Digitale Assistent* to a set of assistant responses and produces a concrete, actionable review.
 
 ## When to use this Skill
 

@@ -17,9 +17,11 @@ For each new Skill under `skills/`, give one line:
 
 - `skills/<name>/`, what it does, when the agent should use it.
 
-## Tool independence
+## Tool independence (Should)
 
-Skills must work in **at least two** agentic coding tools. Tick the tools you tested, and add a one-line note per tool on what you tried.
+Skills should work in **at least two** agentic coding tools. This is a strong
+recommendation, not a jury-blocking Must. Tick the tools you tested, and add
+a one-line note per tool on what you tried.
 
 - [ ] Claude Code, note:
 - [ ] Cursor, note:
@@ -36,10 +38,10 @@ Skills must work in **at least two** agentic coding tools. Tick the tools you te
 - [ ] CI is green.
 - [ ] No real personal data anywhere in the diff.
 - [ ] Single PR for the whole team.
-- [ ] Submitted through the Junction submission form (link below).
+- [ ] Submission also entered through the Alkemio submission space (link below).
 
 ## Demo and deck
 
 - 3-minute demo recording or live-demo slot:
 - Pitch deck (≤10 slides):
-- Junction submission link:
+- Alkemio submission link:

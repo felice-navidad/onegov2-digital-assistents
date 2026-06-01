@@ -5,7 +5,7 @@ Thank you for contributing to the OneGov #2 Digital Assistants Skills challenge.
 ## Ground rules
 
 - **No real personal data.** Use synthetic examples only.
-- **Tool independence is non-negotiable.** Every Skill must work in at least two agentic coding tools. Test before you submit.
+- **Tool independence is strongly recommended.** A Skill that demonstrably works in at least two agentic coding tools is a Should-level distinguishing quality. Test before you submit.
 - **The `SKILL.md` format is the open standard.** Stick to the portable subset (`name`, `description`, body). Tool-specific features (e.g. `allowed-tools`, `disable-model-invocation`) live in a clearly labelled optional section or in a separate tool-specific overlay.
 - **Plain language.** English is the primary language. Dutch domain terms are allowed when translation loses meaning; add them to [docs/glossary.md](docs/glossary.md).
 - **One team, one PR, from a fork.** Fork the repo, work on a branch in your fork, open the PR back into this repo's `main`.
@@ -39,7 +39,7 @@ A reviewable pull request:
 - Touches `skills/` primarily. Changes to `content/`, `scripts/`, or `docs/` are welcome but should be in the same PR with clear rationale.
 - Has a PR description that covers: approach (A / B / hybrid), what each Skill does, which tools you tested, and a link to your demo and deck.
 - Passes CI (`python scripts/validate.py`).
-- Is also submitted through the Junction submission form for this challenge.
+- Is also submitted through the Alkemio submission space for this challenge.
 
 ## Changing shared conventions
 

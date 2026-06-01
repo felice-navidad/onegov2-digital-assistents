@@ -8,8 +8,8 @@
 > **Contact:** [hack@govtechnl.nl](mailto:hack@govtechnl.nl)
 
 This is an English working translation of the original Dutch challenge brief.
-The authoritative source is [Challenge_Brief_Digitale_Assistenten.pdf](Challenge_Brief_Digitale_Assistenten.pdf)
-and the version on Junction.
+The authoritative source is [OneGov#2_Challenge_Brief_Digitale_Assistenten.pdf](OneGov%232_Challenge_Brief_Digitale_Assistenten.pdf)
+and the version on Alkemio.
 
 ---
 
@@ -116,8 +116,14 @@ The challenge owners formulated four questions teams can use as a compass:
 
 **Optional extension:** design a **validation Skill** that judges whether
 other Skills are built correctly according to the framework's structural
-conventions. See [docs/example-skills/framework-validator/](docs/example-skills/framework-validator/)
-for a starter.
+conventions. Note: this is a *Skill* (portable instructions an agent
+follows), not the repository linter [scripts/validate.py](scripts/validate.py).
+Two starting points are available:
+
+- [docs/example-skills/framework-validator/](docs/example-skills/framework-validator/),
+  a more elaborate worked example.
+- [docs/example-skills/validation-stub/](docs/example-skills/validation-stub/),
+  a minimal stub with TODOs for teams that want to design from scratch.
 
 ## Starting point: the Git repository
 
@@ -188,7 +194,7 @@ The repo stays publicly available after the hackathon.
 
 ## Resources available in the repository
 
-Repository contents (available via GitHub & Junction):
+Repository contents (available via GitHub & Alkemio):
 
 1. **Framework as `.md` files**, every good practice from the framework as
    a separate, editable `.md` file. This is your primary raw material.
@@ -209,7 +215,7 @@ Repository contents (available via GitHub & Junction):
 
 > ℹ️ The repository is available at
 > [github.com/govtechnl/onegov2-digital-assistents](https://github.com/govtechnl/onegov2-digital-assistents)
-> and is also surfaced through the Junction platform. **Monique Neijman
+> and is also surfaced through the Alkemio platform. **Monique Neijman
 > (ICTU)** and the technical partners from **ADC Consulting** are available
 > on the day itself for questions about the framework, the repository, and
 > Skill structure.
@@ -225,11 +231,12 @@ services, AI, and open-source development. Four levels:
   demonstrable good practice from the framework.
 - Each Skill follows the `SKILL.md` structure: `name`, `description`, and
   concrete instructions.
-- Skills are demonstrably **tool-independent**: they work in at least two
-  agentic coding tools (e.g. Claude Code and Cursor).
 
 ### ⭐ Should: distinguishing qualities
 
+- Skills are demonstrably **tool-independent**: they work in at least two
+  agentic coding tools (e.g. Claude Code and Cursor). Strongly recommended,
+  but not jury-blocking on its own.
 - Skills are written so that a developer **without prior framework
   knowledge** can pick them up and start working immediately.
 - Attention to **consistency**: Skills used together do not contradict each
@@ -270,10 +277,31 @@ central repository and presents:
 - A short PR description: which good practices were translated, and which
   choices were made when writing the instructions.
 - Submit the PR link, the demo (recording or live-demo slot), and the deck
-  through the **Junction submission form** for this challenge.
+  through the **Alkemio submission space** for this challenge (see
+  [Submission](#submission) below).
 
 See [.github/pull_request_template.md](.github/pull_request_template.md) and
 [docs/skill-checklist.md](docs/skill-checklist.md).
+
+## Submission
+
+Submissions for this challenge go through **Alkemio**, the central
+inlever- and review-platform used by the jury.
+
+**Alkemio submission space:** [Digitale Assistent: Skill Bibliotheek](https://alkem.io/onegov-hackathon/challenges/bouwdeskill-bibliotheekvo).
+
+What each team submits via Alkemio:
+
+1. A **link to the team's Pull Request** on this repository
+   ([github.com/govtechnl/onegov2-digital-assistents](https://github.com/govtechnl/onegov2-digital-assistents)).
+2. A **pitch deck** of at most 10 slides (PDF or link).
+3. A short **demo description** (recording link or live-demo slot), max.
+   3 minutes of content.
+
+**The Alkemio submission is what the jury scores during the hackathon.**
+The Pull Request is still required: it is the artefact teams point to from
+their Alkemio submission, and it is leading for the post-hackathon review
+and merge of high-quality contributions into the central library.
 
 ## Technical framework: what you need to know
 
@@ -299,8 +327,8 @@ choices. The most important ones:
 
 The following material is available as a starting point:
 
-- **Raamwerk Digitale Assistent** (website, forthcoming): all good practices
-  per domain, structured.
+- **Raamwerk van de Digitale Assistent** all good practices
+  per domain, structured: [https://demo-opschalingsticket-digitale-assistent.dokploy.adc-it.com/#/over](https://demo-opschalingsticket-digitale-assistent.dokploy.adc-it.com/#/over).
 - **GitHub repository** with `.md` files, example Skills, and folder
   structure: [github.com/govtechnl/onegov2-digital-assistents](https://github.com/govtechnl/onegov2-digital-assistents).
 - **`SKILL.md` specification and background:** [agentskills.io](https://agentskills.io/),
@@ -316,8 +344,8 @@ The following material is available as a starting point:
   [cursor.sh](https://cursor.sh) ·
   [windsurf.com](https://windsurf.com) ·
   [openai.com/codex](https://openai.com/codex).
-- **Challenge brief and context:** available as an attachment on Junction.
-- **Framework background documentation:** made available via Junction at
+- **Challenge brief and context:** available as an attachment on Alkemio.
+- **Framework background documentation:** made available via Alkemio at
   the latest **two weeks before the hackathon**.
 
 **Monique Neijman (ICTU)** and the technical partners from **ADC
@@ -346,7 +374,5 @@ review before use in production environments.
 
 **Challenge owners:**
 Monique Neijman · `Monique.Neijman@ictu.nl`
-Laurent Smeets · `laurent.s@adc-consulting.com`
-Jochem Huijps · `jochem.h@adc-consulting.com`
 
 **Hackathon questions:** [hack@govtechnl.nl](mailto:hack@govtechnl.nl)

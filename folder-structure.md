@@ -2,7 +2,7 @@
 
 ```
 onegov2-digital-assistents/
-├── Challenge_Brief_Digitale_Assistenten.pdf  # the official brief, leading
+├── OneGov#2_Challenge_Brief_Digitale_Assistenten.pdf  # the official brief, leading
 ├── README.md
 ├── CHALLENGE.md                              # brief summary + design approaches
 ├── CONTRIBUTING.md
@@ -78,7 +78,7 @@ onegov2-digital-assistents/
 ## What is where
 
 - **`skills/`**, the deliverable. Your team's Skills live here.
-- **`content/`**, the *Raamwerk Digitale Assistenten* in Markdown + YAML. Treat it as raw material: read it, link to it from your Skills, but you do not have to edit it (and most teams shouldn't).
+- **`content/`**, the *Raamwerk van de Digitale Assistent* in Markdown + YAML. Treat it as raw material: read it, link to it from your Skills, but you do not have to edit it (and most teams shouldn't).
 - **`scripts/validate.py`**, the linter. Runs on every PR via [.github/workflows/validate.yml](.github/workflows/validate.yml).
 - **`docs/`**, supporting docs: the SKILL.md spec, the submission checklist, two worked example Skills in `docs/example-skills/`, integrations, and ADC's reference templates.
 - **`docs/example-skills/`**, fully-worked Skills you can study without them being part of your own `skills/` deliverable.

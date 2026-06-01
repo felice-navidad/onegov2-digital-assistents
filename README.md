@@ -2,9 +2,9 @@
 
 Starter repository for the OneGov #2 hackathon challenge **"Digital Assistants for Government"** (4–5 June 2026, The Hague Tech).
 
-The challenge: build a **library of Agent Skills**, `SKILL.md` files following the [open Agent Skills standard](https://agentskills.io/), that turn the ICTU/ADC *Raamwerk Digitale Assistenten* into concrete, tool-independent instructions any agentic coding assistant (Claude Code, Cursor, Windsurf, OpenAI Codex, …) can apply when helping a government team build, evaluate, or operate a digital assistant.
+The challenge: build a **library of Agent Skills**, `SKILL.md` files following the [open Agent Skills standard](https://agentskills.io/), that turn the ICTU/ADC *Raamwerk van de Digitale Assistent* into concrete, tool-independent instructions any agentic coding assistant (Claude Code, Cursor, Windsurf, OpenAI Codex, …) can apply when helping a government team build, evaluate, or operate a digital assistant.
 
-> The full brief is in [Challenge_Brief_Digitale_Assistenten.pdf](Challenge_Brief_Digitale_Assistenten.pdf). Read it first, it overrides anything in this repo.
+> The full brief is in [OneGov#2_Challenge_Brief_Digitale_Assistenten.pdf](OneGov%232_Challenge_Brief_Digitale_Assistenten.pdf). Read it first, it overrides anything in this repo.
 
 New teams can begin with [START_HERE.md](START_HERE.md).
 
@@ -26,7 +26,7 @@ See [docs/skill-format.md](docs/skill-format.md) for the full format reference.
 
 ## What this repo gives you
 
-- **[content/](content/)**, the *Raamwerk Digitale Assistenten* as Markdown + YAML: 13 domains, 6 practices, glossary, sources. This is the **raw material** your skills wrap around.
+- **[content/](content/)**, the *Raamwerk van de Digitale Assistent* as Markdown + YAML: 13 domains, 6 practices, glossary, sources. This is the **raw material** your skills wrap around.
 - **[skills/](skills/)**, where teams put their Skills.
   - [skills/_template/](skills/_template/), copy this to start a new skill.
 - **[docs/example-skills/](docs/example-skills/)**, two fully-worked example Skills (Approach A + a bonus validation Skill) you can study without them being part of your `skills/` deliverable.
@@ -55,6 +55,16 @@ To author a Skill:
 5. Test it in **at least two agentic coding tools** (e.g. Claude Code + Cursor), Skills must be tool-independent.
 6. Open one pull request per team from your fork into this repo's `main`. See [CHALLENGE.md](CHALLENGE.md) for full deliverables.
 
+## Submission
+
+Submissions go through **Alkemio**, the central submission and review point for this challenge.
+
+- **Alkemio submission space:** [Digitale Assistent: Skill Bibliotheek](https://alkem.io/onegov-hackathon/challenges/bouwdeskill-bibliotheekvo).
+- Each team submits, via Alkemio: (1) a **link to its Pull Request** in this repo, (2) a **pitch deck** of at most 10 slides, and (3) a short **demo description** (recording link or live-demo slot, max. 3 minutes).
+- **The Alkemio submission is what the jury scores during the hackathon.** The PR is still required: it is the artefact the Alkemio submission points to, and it is leading for the post-hackathon review and merge into the central library.
+
+See [CHALLENGE.md](CHALLENGE.md#submission) for the full description.
+
 ## Approach: A, B, or hybrid
 
 The brief offers two design approaches; pick one (or mix):
@@ -73,7 +83,7 @@ See [folder-structure.md](folder-structure.md).
 - **ICTU**, Monique Neijman, framework owner.
 - **ADC Consulting**, technical support for the framework, repo, and Skill structure.
 
-ADC also runs the public *Raamwerk Digitale Assistenten* site; their content templates are in [docs/adc-reference/](docs/adc-reference/) for reference.
+ADC also runs the public *Raamwerk van de Digitale Assistent* site; their content templates are in [docs/adc-reference/](docs/adc-reference/) for reference.
 
 ## License
 

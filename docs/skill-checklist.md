@@ -15,7 +15,7 @@ Walk through this list for **every Skill** in your PR before submitting. The fir
 
 ## Judgement (you check)
 
-### Tool independence (Must)
+### Tool independence (Should)
 
 - [ ] I tested this Skill in **at least two** agentic coding tools.
 - [ ] I noted in the PR description which tools I tested and what I tried.
@@ -43,6 +43,6 @@ Walk through this list for **every Skill** in your PR before submitting. The fir
 - [ ] PR is opened from a team fork into this repo's `main`.
 - [ ] One PR per team, containing **at least two** Skills.
 - [ ] PR description covers: approach (A / B / hybrid), what each Skill does, tools tested, link to the 3-minute demo, link to the ≤10-slide pitch deck.
-- [ ] PR link, demo, and deck submitted through the Junction submission form for this challenge.
+- [ ] PR link, demo, and deck submitted through the Alkemio submission space for this challenge.
 - [ ] CI is green.
 - [ ] No real personal data anywhere in the diff.
